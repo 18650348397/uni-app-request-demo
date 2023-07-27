@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/home/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "没有位置信息，将无法使用小程序地图，请允许"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation",
+    "onLocationChange",
+    "startLocationUpdate"
+  ],
+  "usingComponents": {}
+}
